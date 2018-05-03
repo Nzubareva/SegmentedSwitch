@@ -8,11 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, SegmentedSwitchDelegate {
+    func segmentedSwitch(_ switch: SegmentedSwitch, didSelectItemAtIndex index: Int) {
+       print("\(index) pressed")
+    }
+    
 
+    @IBOutlet weak var controlContainer: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let items = [UIView(), UIView(), UIView(), UIView(), UIView() ]
+        let segmentedSwitch = SegmentedSwitch(items: items, delegate: self)
+        controlContainer.addSubview(segmentedSwitch)
+        segmentedSwitch.frame = controlContainer.bounds
+   
     }
 
     override func didReceiveMemoryWarning() {

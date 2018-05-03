@@ -14,6 +14,7 @@
 		E5C4DCB3209A1C9F00B2B47A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C4DCB1209A1C9F00B2B47A /* LaunchScreen.storyboard */; };
 		E5C4DCBE209A1CA000B2B47A /* SegmentedSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4DCBD209A1CA000B2B47A /* SegmentedSwitchTests.swift */; };
 		E5C4DCC9209A1CA000B2B47A /* SegmentedSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4DCC8209A1CA000B2B47A /* SegmentedSwitchUITests.swift */; };
+		E5C4DCD7209A1E9200B2B47A /* SegmentedSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4DCD6209A1E9200B2B47A /* SegmentedSwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E5C4DCC4209A1CA000B2B47A /* SegmentedSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentedSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C4DCC8209A1CA000B2B47A /* SegmentedSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedSwitchUITests.swift; sourceTree = "<group>"; };
 		E5C4DCCA209A1CA000B2B47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C4DCD6209A1E9200B2B47A /* SegmentedSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedSwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E5C4DCA8209A1C9C00B2B47A /* AppDelegate.swift */,
 				E5C4DCAA209A1C9C00B2B47A /* ViewController.swift */,
 				E5C4DCAC209A1C9C00B2B47A /* Main.storyboard */,
+				E5C4DCD6209A1E9200B2B47A /* SegmentedSwitch.swift */,
 				E5C4DCAF209A1C9F00B2B47A /* Assets.xcassets */,
 				E5C4DCB1209A1C9F00B2B47A /* LaunchScreen.storyboard */,
 				E5C4DCB4209A1C9F00B2B47A /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C4DCD7209A1E9200B2B47A /* SegmentedSwitch.swift in Sources */,
 				E5C4DCAB209A1C9C00B2B47A /* ViewController.swift in Sources */,
 				E5C4DCA9209A1C9C00B2B47A /* AppDelegate.swift in Sources */,
 			);
